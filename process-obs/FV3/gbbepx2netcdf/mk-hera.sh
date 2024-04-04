@@ -1,7 +1,7 @@
 #! /bin/sh
 
 set -ue
-module load intel/19.0.5.281 netcdf szip hdf5
+module load intel/2023.2.0 netcdf szip hdf5
 set -x
 
 fflags=$( nf-config --fflags )
